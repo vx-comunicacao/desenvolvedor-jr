@@ -22,15 +22,14 @@ Preparamos um layout de um email marketing e você precisa montar seguindo o mod
 
 * Uso de CSS inline;
 * Uso de texto no lugar de imagens sempre que possível;
-* Uso de tabelas (```<table>```);
-
+* Uso de tabelas (`<table>`);
 * Versionamento.
 
 ## Informações extras
 
 * Use marcações compátiveis com a maioria dos clientes de e-mail do mercado. 
 
-* Não usar ```padding``` nos espaçamentos.
+* Não usar `padding` nos espaçamentos.
 
 * No figma, faça a importação do arquivo **newsletter.fig** para obter informações sobre o layout e recorte de imagens.
 
@@ -38,7 +37,7 @@ Preparamos um layout de um email marketing e você precisa montar seguindo o mod
 
 ## Como enviar os arquivos? 
 
-1. `clone` projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-jr`
+1. Faça o `clone` do projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-jr`
 2. Crie uma `branch` com suas alterações
 3. Faça um `README.md` falando um pouco de você e porque você gostaria de trabalhar aqui na VX.
 4. Nos envie o link.
