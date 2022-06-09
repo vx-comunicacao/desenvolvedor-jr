@@ -38,10 +38,10 @@ Preparamos um layout de um email marketing e você precisa montar seguindo o mod
 
 ## Como enviar os arquivos? 
 
-1. `Fork` ou `clone` projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-jr`
+1. `clone` projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-jr`
 2. Crie uma `branch` com suas alterações
 3. Faça um `README.md` falando um pouco de você e porque você gostaria de trabalhar aqui na VX.
-4. Faça um `pull request`
+4. Nos envie o link.
 
 ## Modelo 
 
