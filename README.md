@@ -1,51 +1,26 @@
-![vx](vx.png)
+# Teste desenvolvedor jr - Leonan Thomaz
 
-# Teste desenvolvedor jr
 
-![alt text](https://d335luupugsy2.cloudfront.net/cms/files/41403/1606856495/$8lyt6e2ma2e)
+# Um pouco sobre mim...
 
-## Seja um VXzeiro!
+Graduado em Análise e Desenvolvimento de sistemas, sempre fui fascinado por tecnologia.
 
-Estamos no mercado desde 2002, e nosso QG está localizado na cidade de Niterói. Somos uma agência 360 e temos vários cases legais (<a href="https://vxcomunicacao.com.br/todos-cases/" target="_blank">clique aqui</a> para conhecer alguns).
+Durante minha graduação, sempre busquei ampliar meus conhecimentos e hoje busco me manter sempre atualizado por meio de um aprendizado contínuo. Gosto de ler, ficar atento as notícias e as novidades, principalmente as relacionadas com a área de tecnologia. Encaro minha profissão como um grande hobby, sendo assim útil e ao mesmo tempo agradável para mim.
 
-Acreditamos no trabalho duro, amamos o que fazemos e somos incansáveis na missão de cultivar relações interpessoais transparentes, duradouras e produtivas.
+Dentre minhas habilidades, destaco as linguagem de programação PHP e Javascript, sendo capaz de construir aplicações simples, como SPA (Single Page Application) e projetos um pouco mais avançados, como lógica de Web Commerce, comunicação via API e banco de dados.
 
-Nosso DNA está baseado em criar soluções que convertam sempre com muita criatividade, pensando fora da caixa e dentro do budget.
+Possuo domínio em Desenvolvimento Web (HTML5 e CSS3), conhecimentos em linguagem de programação (PHP e JavaScript), noções de frameworks (React e Node JS) e banco de dados (MySQL e MongoDB).
 
-O que buscamos neste teste é tentar conhecer melhor o seu trabalho.
+## Do desafio...
 
-## Objetivos
+Por uma questão de costume, a utilização apenas de tables e similares (e não divs, sections, articles e etc) foi um pouco desafiador e ter uma experiência maior com uma nova ferramenta (Figma) foi bastante interessante. É sempre bom conhecer e praticar novas tecnologias e ferramentas.
 
-Preparamos um layout de um email marketing e você precisa montar seguindo o modelo.
+### Por quê quero trabalhar na VX Comunicação?
 
-## O que esperamos no teste
+Porque acredito que será muito será bastante proveitoso tanto para mim quanto para a empresa, com meus conhecimentos e habilidades. Venho buscando uma oportunidade para alavancar minha carreira como desenvolvedor e diante do desafio proposto e conhecendo a empresa, suas demandas e clientes, creio que seja excelente para meu crescimento profissional.
 
-* Uso de CSS inline;
-* Uso de texto no lugar de imagens sempre que possível;
-* Uso de tabelas (`<table>`);
-* Versionamento.
+# Grato pela oportunidade! #
 
-## Informações extras
 
-* Use marcações compátiveis com a maioria dos clientes de e-mail do mercado. 
 
-* Não usar `padding` nos espaçamentos.
 
-* No figma, faça a importação do arquivo **newsletter.fig** para obter informações sobre o layout e recorte de imagens.
-
-* A fonte **Globotipo Texto** utilizada no layout deve ser importada através do <a href="https://cdn.jsdelivr.net/gh/viniciusvasc13/globoplay@master/globotipo2.css" target="_blank">**JSDelivr**</a>.
-
-## Como enviar os arquivos? 
-
-1. Faça o `clone` do projeto `git clone https://github.com/vx-comunicacao/desenvolvedor-jr`;
-2. Crie uma `branch` com suas alterações;
-3. Faça um `README.md` falando um pouco de você e porque você gostaria de trabalhar aqui na VX;
-4. Nos envie o link.
-
-## Modelo 
-
-![alt text](./newsletter.png)
-
-**Boa sorte!**
-
-![alt text](https://d335luupugsy2.cloudfront.net/cms/files/41403/1606856495/$8lyt6e2ma2e)

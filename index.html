@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Leonan Thomaz</title>
+
+    <!-- Fontes - CDN -->
+    <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/viniciusvasc13/globoplay@master/globotipo2.css" type="font/woff2" crossorigin="anonymous">
+
+    <style>
+        
+    @font-face {
+        font-family: 'globotipo_textoblack';
+        src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'globotipo_textobold';
+        src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'globotipo_textoregular';
+        src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'globotipo_textolight';
+        src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(180deg, rgba(241, 242, 242, 0) 17.84%, rgba(241, 242, 242, 0.447917) 41.27%, #F1F2F2 62.37%);
+    background-attachment: fixed;
+    }
+
+    /*Formatação do botão "adicionar à minha lista" */
+    .btn-2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 4px;
+
+    width: 237px;
+    height: 38px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border: 2px solid;
+
+    border-image: linear-gradient(45deg,#FB0234,#FF8F01) 10;
+    }
+    </style>
+</head>
+<body>
+    
+    <table align="center" cellpadding="0" cellspacing="0" width="600">
+        <tbody>        
+            <tr>
+                 <!-- Intro -->
+                <td style="
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: auto;
+                    margin-top: 20px;
+                ">
+                    <!-- Logo -->
+                    <img src="./assets/globoplay - light.png" style="margin: 20px;">
+
+                    <!-- Filete abaixo da logo -->
+                    <img src="./assets/Rastro 2.png">
+
+                    <!-- Optei por adicionar a imagem do homem com a "logo exclusivo" -->
+                    <img src="./assets/SCREEN_shutterstock_176447156 1 (5).png" style="margin-top: -33px;">
+
+                    <!-- Texto chamada -->
+                    <font style="font-weight: 900; font-family: 'Globotipo Texto', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, HelveticaNeue, HelveticaNeue-Light, Arial, sans-serif; font-size: 36px; line-height: 36px;">
+                        NOVA TEMPORADA DE
+                    </font>
+                    <font style="color: orange; font-weight: 900; font-family: 'Globotipo Texto', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, HelveticaNeue, HelveticaNeue-Light, Arial, sans-serif; font-size: 36px; line-height: 36px; ">
+                        HOSPITAL NEW AMSTERDAM
+                    </font>
+                    <br>
+
+                    <!-- Border-bottom laranja -->
+                    <img src="./assets/Rectangle 149.png"/>
+                    
+                    <font style=" font-weight: 500; font-family: 'globotipo_textoregular', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, HelveticaNeue, HelveticaNeue-Light, Arial, sans-serif; font-size: 18px; line-height: 36px;">
+                        Todos os problemas do mundo em um só hospital
+                    </font>      
+                </td>
+
+                <!-- Grupo de botões -->
+                <td style="
+                    margin: auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    ">
+                    <p class="btn-1" style="font-family: 'globotipo_textoregular'; color: #fff;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    width: 128px;
+                    height: 38px;
+
+                    background: #FB0234;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    ">
+                        assistir agora
+                    </p>
+
+                    <p class="btn-2" style="font-family: 'globotipo_textoregular';
+                    
+                    ">
+                        <img src="./assets/Group 1994.png" style="color: #fff;"/>
+                        adicionar à minha lista
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table-body" width="600" valign="top" style="margin:auto; ">
+                    <br> 
+                    <table style="background: #1F1F1F;" >
+                        <td>
+                            <img src="./assets/Group 2045.png" >
+                        </td>
+                        <td style="color: #fff;">
+                            <p style="font-family: 
+                            'globotipo_textoblack', 
+                            -apple-system, system-ui, 
+                            BlinkMacSystemFont, 'Segoe UI', 
+                            Roboto, 'Helvetica Neue', Helvetica, 
+                            HelveticaNeue, HelveticaNeue-Light, Arial, 
+                            sans-serif;margin: 10px; font-size: 20px; 
+                            text-transform: uppercase; width: 200px;">
+                                Para curtir o Dia dos Namorados ❤
+                            </p>
+                            <p style="font-family: 'globotipo_textoregular', 
+                            -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 
+                            Helvetica, HelveticaNeue, HelveticaNeue-Light, 
+                            Arial, sans-serif;
+                            margin: 10px;">
+                                Kallie começa a receber cartas românticas de um admirador secreto e resolve se abrir para o amor.
+                            </p>
+                            <br>
+                            <p class="btn-2" style="font-family: 'globotipo_textoregular'; margin: 10px;">
+                                <img src="./assets/Group 1994 (1).png" />
+                                adicionar à minha lista
+                            </p>
+                        </td>
+                        <td style="text-align: right;">
+                            <img src="./assets/Rastro esquerdo.png">
+                        </td>
+                    </table>
+                    <br>
+                    <table style="background: #1F1F1F;">
+                        <td>
+                            <img src="./assets/Rastro esquerdo.png">
+                        </td>
+                        
+                        <td style="color: #fff;">
+                            <p style="font-family: 'globotipo_textoblack', 
+                            -apple-system, system-ui, BlinkMacSystemFont, 
+                            'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, 
+                            HelveticaNeue, HelveticaNeue-Light, 
+                            Arial, sans-serif;margin: 10px; font-size: 20px; 
+                            text-transform: uppercase; 
+                            width: 200px;">
+                            Malhação 1996
+                            </p>
+                            <p style="font-family: 
+                            'globotipo_textoregular', 
+                            -apple-system, system-ui, 
+                            BlinkMacSystemFont, 'Segoe UI', 
+                            Roboto, 'Helvetica Neue', 
+                            Helvetica, HelveticaNeue, 
+                            HelveticaNeue-Light, 
+                            Arial, sans-serif;margin: 10px;">
+                                Tá sentindo nostalgia aí também? Vem shippar Dado e Luiza!
+                            </p>
+                            <br>
+                            <p class="btn-2" style="font-family: 'globotipo_textoregular'; margin: 10px;">
+                                <img src="./assets/Group 1994 (1).png"/>
+                                adicionar à minha lista
+                            </p>
+                        </td>
+
+                        <td style="text-align: right;">
+                            <img src="./assets/Group 2044.png">
+                        </td>
+                        
+                    </table>
+                    <br>
+                </td> 
+            </tr>
+
+            <!-- Rodapé -->
+            <tr>
+                <td width="600" valign="top" bgcolor="#000000" style="margin:auto">
+                    <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#000000" style="background-color: #000000;">
+                        <tr>
+                            <td width="50">&nbsp;</td>
+                            <td width="500">
+                                <table width="500" border="0" cellspacing="0" cellpadding="0" align="center">
+
+                                    <tr>
+                                        <td width="500">
+                                            <p style="margin: 0; padding: 0; font-size: 30px; line-height: 30px;">&nbsp;</p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <!-- Optei por não colocar links nos ícones pois não se encontra separado no figma. -->
+                                        <td width="500" >
+                                            <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" >
+                                                <tr>
+                                                    <td style="margin: 25px 0 20px 0; text-align: left;">
+                                                        <img  src="./assets/logo-rodape 1.png" >
+                                                    </td>
+                                                    <td width="160" style="margin: 25px 0 20px 0; text-align: right;">
+                                                        <img src="./assets/Group 1800.png" >
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td width="500">
+                                            <table width="500" border="0" cellspacing="0" cellpadding="0" style="margin-left:20px;">
+                                                <tr>
+                                                    <td width="480">
+                                                        <p 
+                                                            style="font-family: 'globotipo_textobold', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, HelveticaNeue, HelveticaNeue-Light, Arial, sans-serif; font-size: 13px; line-height: 12px; color:#919191; margin: 25px 0 20px 0; text-align: left;">Este e-mail foi enviado para <a style="color: #919191 !important; text-decoration: none !important;">%%email%%</a> <br>
+                                                                <a style="color: #919191; text-decoration: none;" target="_blank" href="%%=Concat(CloudPagesUrl(1968,'e',_subscriberkey, 'n', emailaddr))=%%">Descadastrar recebimento</a> | <a style="color: #919191; text-decoration: none;"
+                                                            target="_blank" href="http://centraldeajuda.globo.com/Globoplay/">Central de ajuda</a> 
+                                                        </p>
+                                                        <p style="font-family: 'globotipo_textobold', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, HelveticaNeue, HelveticaNeue-Light, Arial, sans-serif; font-size: 13px; line-height: 12px; color: #919191; margin:  25px 0 0 0; text-align: left;">&copy; 2000-2022 Globo Comunica&ccedil;&atilde;o e Participa&ccedil;&otilde;es S.A. <br> Todos os direitos reservados - <a href="http://www.globo.com/privacidade.html" target="_blank" style="color: #919191 !important; text-decoration: none !important;">Pol&iacute;tica de Privacidade</a>                                                            - <a href="https://globoplay.globo.com/termosepoliticas/" target="_blank" style="color: #919191 !important; text-decoration: none !important;">Termos de uso</a> </p>
+                                                    </td>
+                                                    <td width="20">&nbsp;</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="500">
+                                            <p style="margin: 0; padding: 0; font-size: 40px; line-height: 40px;">&nbsp;</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="50">&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>   
+</body>
+</html>
